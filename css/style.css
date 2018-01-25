@@ -16,7 +16,7 @@ body {
   padding-top: 75px; 
 }
 html {
-  font-size: 14px;
+  font-size: 16px;
   height: 100%;
   box-sizing: border-box;
 }
@@ -45,10 +45,17 @@ html {
     } 
   */
 
+ .Marque{
+   color: chartreuse;
+   background-color: dimgray;
+   font-size: large;
+ }
+
   /* Jumbotron */
   .jumbotron{
-    background-image: url("../image/morningtree.jpg");
+    background-image: url("../image/Background.jpg");
     display: block;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
