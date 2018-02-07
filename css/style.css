@@ -25,6 +25,10 @@ html {
     height: 22px;
   }
 
+  .navbar-brand a:hover {
+   opacity: 1;
+  }
+
   /* Responsive typography */
   /* 
   @include media-breakpoint-up(sm) {
