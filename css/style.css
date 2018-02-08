@@ -25,9 +25,7 @@ html {
     height: 22px;
   }
 
-  .navbar-brand a:hover {
-   opacity: 1;
-  }
+
 
   /* Responsive typography */
   /* 
@@ -72,6 +70,15 @@ html {
       box-sizing: content-box;
   }
 
+  .textbox{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .boxspace{
+    padding: 50px 30px 10px 30px;
+  }
+
   /* LAYOUT - Responsive breakpoints */
   /* // Extra small devices (portrait phones, less than 576px) */
   @media (max-width: 575px) {  
@@ -97,5 +104,7 @@ html {
   @media (min-width: 1200px) {  
 
   }
+
+
 
 
